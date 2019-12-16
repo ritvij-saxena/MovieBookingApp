@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     lateinit var stringRequest: StringRequest
     lateinit var data: ArrayList<MovieContent>
     var URL =
-        "https://api.themoviedb.org/3/movie/now_playing?api_key=d82820e04f8c9e368c7b38e2fb0caf71&language=en-US&page=1"
+        "https://api.themoviedb.org/3/movie/now_playing?api_key=<api_key>&language=en-US&page=1"
 
     //https://image.tmdb.org/t/p/w500/
     override fun onCreate(savedInstanceState: Bundle?) {
